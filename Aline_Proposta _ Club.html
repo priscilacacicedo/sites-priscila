@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proposta | Club com Propósito</title>
+  <style>
+    :root {
+      --bg: #F5F2EC;
+      --bg-2: #F2EFE8;
+      --paper: rgba(255,255,255,0.82);
+      --text: #303030;
+      --muted: #706d6d;
+      --accent: #f4008c;
+      --accent-dark: #ab0057;
+      --accent-soft: #dd83b0;
+      --gold: #e8c370;
+      --gold-deep: #a8873d;
+      --soft: #f1e9c9;
+      --line: rgba(48, 48, 48, 0.10);
+      --shadow: 0 20px 70px rgba(48, 48, 48, 0.08);
+      --radius: 28px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--text);
+      font-family: "Open Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(232,195,112,0.18), transparent 24%),
+        radial-gradient(circle at 85% 12%, rgba(244,0,140,0.08), transparent 18%),
+        linear-gradient(180deg, #faf7f2 0%, var(--bg) 46%, #f6f3ed 100%);
+    }
+    .wrap {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 26px 22px 60px;
+    }
+    @media print {
+      body {
+        background: #ffffff;
+      }
+      .wrap {
+        max-width: none;
+        padding: 0;
+      }
+      .hero, .panel, .impact, .price-box, .journey-card {
+        break-inside: avoid;
+        box-shadow: none;
+      }
+      .section {
+        margin-top: 18px;
+      }
+      .hero {
+        padding: 24px;
+      }
+      h1 {
+        font-size: 44px;
+      }
+      .lead {
+        font-size: 16px;
+        line-height: 1.55;
+      }
+      .title {
+        font-size: 28px;
+      }
+      .impact .title {
+        font-size: 30px;
+      }
+      .impact-inner, .panel, .price-box, .journey-card {
+        padding: 20px;
+      }
+      .hero-grid, .grid-2, .impact-grid, .journey, .offer {
+        gap: 14px;
+      }
+      ul.clean li, .side-item {
+        padding: 12px 14px;
+      }
+      .topline {
+        margin-bottom: 20px;
+      }
+    }
+    .hero {
+      position: relative;
+      overflow: hidden;
+      border-radius: 34px;
+      padding: 34px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.82), rgba(255,255,255,0.62));
+      border: 1px solid rgba(255,255,255,0.8);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+    .hero:before {
+      content: "";
+      position: absolute;
+      right: -110px;
+      top: -80px;
+      width: 360px;
+      height: 360px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(232,195,112,0.26), transparent 68%);
+    }
+    .topline {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 34px;
+      position: relative;
+      z-index: 1;
+    }
+    .brand {
+      font-size: 14px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--accent);
+      font-weight: 700;
+    }
+    .badge {
+      padding: 9px 14px;
+      border-radius: 999px;
+      background: rgba(244,0,140,0.06);
+      border: 1px solid rgba(244,0,140,0.10);
+      color: var(--accent-dark);
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.25fr 0.8fr;
+      gap: 26px;
+      align-items: stretch;
+      position: relative;
+      z-index: 1;
+    }
+    h1 {
+      margin: 0;
+      max-width: 760px;
+      font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+      font-size: clamp(42px, 6vw, 76px);
+      line-height: 0.94;
+      letter-spacing: -0.04em;
+    }
+    .lead {
+      max-width: 720px;
+      margin: 22px 0 0;
+      color: var(--muted);
+      font-size: 20px;
+      line-height: 1.7;
+    }
+    .hero-note {
+      margin-top: 28px;
+      display: inline-flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .chip {
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.65);
+      border: 1px solid var(--line);
+      font-size: 14px;
+      color: var(--accent-dark);
+    }
+    .panel {
+      background: var(--paper);
+      border: 1px solid rgba(255,255,255,0.78);
+      box-shadow: var(--shadow);
+      border-radius: var(--radius);
+      padding: 26px;
+      backdrop-filter: blur(10px);
+    }
+    .panel h3, .kicker {
+      margin: 0 0 12px;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.10em;
+      color: var(--accent);
+      font-weight: 700;
+    }
+    .quote {
+      font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+      font-size: 28px;
+      line-height: 1.28;
+    }
+    .side-list {
+      display: grid;
+      gap: 12px;
+      margin-top: 8px;
+    }
+    .side-item {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 15px 16px;
+      background: rgba(255,255,255,0.48);
+      line-height: 1.55;
+      color: var(--muted);
+      font-size: 15px;
+    }
+    .section {
+      margin-top: 26px;
+    }
+    .section-header {
+      margin-bottom: 16px;
+    }
+    .title {
+      margin: 0 0 8px;
+      font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+      font-size: 36px;
+      line-height: 1.06;
+      letter-spacing: -0.02em;
+    }
+    .sub {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.7;
+      font-size: 17px;
+      max-width: 900px;
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0,1fr));
+      gap: 22px;
+    }
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0,1fr));
+      gap: 18px;
+    }
+    .block-number {
+      font-size: 42px;
+      font-weight: 800;
+      color: var(--accent);
+      margin-bottom: 10px;
+    }
+    ul.clean {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      gap: 12px;
+    }
+    ul.clean li {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.48);
+      border-radius: 18px;
+      padding: 15px 16px;
+      line-height: 1.58;
+    }
+    .impact {
+      margin-top: 28px;
+      border-radius: 30px;
+      overflow: hidden;
+      background: linear-gradient(135deg, #303030 0%, #ab0057 58%, #f4008c 100%);
+      color: white;
+      box-shadow: var(--shadow);
+    }
+    .impact-inner {
+      padding: 34px;
+    }
+    .impact .title {
+      color: white;
+      font-size: 40px;
+    }
+    .impact p {
+      color: rgba(255,255,255,0.90);
+      font-size: 18px;
+      line-height: 1.75;
+      max-width: 920px;
+      margin: 0;
+    }
+    .impact-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0,1fr));
+      gap: 14px;
+      margin-top: 24px;
+    }
+    .impact-card {
+      background: rgba(255,255,255,0.10);
+      border: 1px solid rgba(255,255,255,0.16);
+      border-radius: 20px;
+      padding: 18px;
+      min-height: 154px;
+    }
+    .impact-card strong {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 16px;
+      color: white;
+    }
+    .impact-card span {
+      color: rgba(255,255,255,0.84);
+      line-height: 1.58;
+      font-size: 14px;
+    }
+    .journey {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0,1fr));
+      gap: 18px;
+    }
+    .journey-card {
+      padding: 24px;
+      border-radius: 24px;
+      border: 1px solid var(--line);
+      background: linear-gradient(180deg, rgba(255,255,255,0.82), rgba(255,255,255,0.58));
+      min-height: 210px;
+    }
+    .journey-card .n {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: var(--accent);
+      color: white;
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+    .journey-card h4 {
+      margin: 0 0 10px;
+      font-size: 19px;
+    }
+    .journey-card p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.7;
+      font-size: 15px;
+    }
+    .offer {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 22px;
+      align-items: stretch;
+    }
+    .price-box {
+      background: linear-gradient(180deg, rgba(255,255,255,0.88), rgba(255,255,255,0.66));
+      border: 1px solid var(--line);
+      border-radius: 26px;
+      padding: 28px;
+      box-shadow: var(--shadow);
+    }
+    .price-box .value {
+      font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+      font-size: 52px;
+      line-height: 1;
+      margin: 10px 0 8px;
+    }
+    .price-box .mini {
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    .signature {
+      margin-top: 26px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+      color: var(--accent-dark);
+      font-size: 18px;
+      font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    }
+    .cta {
+      margin-top: 16px;
+      display: inline-block;
+      text-decoration: none;
+      background: #303030;
+      color: #F5F2EC;
+      padding: 14px 20px;
+      border-radius: 999px;
+      font-weight: 700;
+      box-shadow: 0 10px 28px rgba(48,48,48,0.18);
+    }
+    @media (max-width: 1040px) {
+      .hero-grid, .grid-2, .grid-3, .impact-grid, .journey, .offer { grid-template-columns: 1fr; }
+      .hero { padding: 26px; }
+      h1 { font-size: 48px; }
+      .lead { font-size: 18px; }
+      .impact .title { font-size: 34px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <div class="topline">
+        <div class="brand">Priscila Cacicedo</div>
+        <div class="badge">Posicionamento · Presença · Percepção de Valor</div>
+      </div>
+
+      <div class="hero-grid">
+        <div>
+          <div class="kicker">Proposta estratégica para o Club</div>
+          <h1>Transformar afinidade, visão e conexões em um Club vivo, desejado e pronto para ganhar forma.</h1>
+          <p class="lead">
+            Vejo aqui uma oportunidade real de transformar uma ideia com alma em um projeto com direção, desejo e valor percebido.
+            Não para criar mais um grupo. Nem mais um evento. Mas para construir um Club capaz de reunir as pessoas certas,
+            gerar conexões com intenção e ocupar um espaço que hoje ainda está vazio no mercado.
+          </p>
+          <div class="hero-note">
+            <span class="chip">Propósito com direção</span>
+            <span class="chip">Conexões com intenção</span>
+            <span class="chip">Percepção de valor</span>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h3>O que já existe de mais valioso</h3>
+          <div class="side-list">
+            <div class="side-item"><strong>Aline</strong><br>Conecta pessoas, enxerga potencialidades, cria pontes e ativa oportunidades.</div>
+            <div class="side-item"><strong>Daniela</strong><br>Traz experiência, acolhimento, bem-estar, receber bem e um universo que conversa com casa, vida e convivência.</div>
+            <div class="side-item"><strong>Priscila</strong><br>Entra com estrutura, posicionamento, narrativa, organização da oferta, divulgação e presença digital.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section grid-2">
+      <div class="panel">
+        <div class="block-number">01</div>
+        <h2 class="title">A oportunidade</h2>
+        <p class="sub">
+          O potencial não está apenas em reunir pessoas. Está em construir um espaço que tenha identidade, critério e significado suficiente para atrair, manter e mobilizar as pessoas certas.
+        </p>
+        <ul class="clean" style="margin-top:16px;">
+          <li>Um Club com identidade, propósito e proposta clara</li>
+          <li>Experiências que geram conexão real, não networking vazio</li>
+          <li>Um ambiente que fortalece relações, carreira e negócios</li>
+          <li>Uma construção com intenção, consistência e plano de execução</li>
+        </ul>
+      </div>
+
+      <div class="panel">
+        <div class="block-number">02</div>
+        <h2 class="title">O problema que vamos resolver</h2>
+        <p class="sub">
+          Muitas ideias bonitas nunca chegam a existir de verdade. Ficam no entusiasmo inicial, no imaginário, no “bora? bora!” que empolga, mas não estrutura.
+          O meu papel aqui é conduzir essa travessia: sair da intuição e transformar isso em conceito, proposta, comunicação e movimento real.
+        </p>
+      </div>
+    </section>
+
+    <section class="impact">
+      <div class="impact-inner">
+        <div class="kicker" style="color:rgba(255,255,255,0.75)">Como podemos acelerar a execução</div>
+        <h2 class="title">A IA não entra como tema do Club. Ela entra como recurso para fazer a ideia avançar com mais clareza, velocidade e execução.</h2>
+        <p>
+          Podemos usar inteligência artificial a favor da construção para acelerar estratégia, organização, naming, narrativa, materiais,
+          estrutura de divulgação e presença digital. Em vez de depender apenas de tempo, energia e tentativa e erro,
+          vocês ganham uma camada extra de clareza, velocidade e capacidade de tirar a ideia do campo da conversa para o campo da execução.
+        </p>
+
+        <div class="impact-grid">
+          <div class="impact-card"><strong>Clareza</strong><span>Organizar ideias, definir pilares, dar nome e forma ao que hoje ainda está intuitivo.</span></div>
+          <div class="impact-card"><strong>Velocidade</strong><span>Ganhar tempo na criação de textos, convites, apresentações, estrutura do site e divulgação.</span></div>
+          <div class="impact-card"><strong>Execução</strong><span>Transformar visão em entregáveis reais, com menos improviso e mais consistência.</span></div>
+          <div class="impact-card"><strong>Posicionamento</strong><span>Elevar a percepção do projeto desde o início, com comunicação mais madura, forte e desejável.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-header">
+        <div class="kicker">Minha proposta de condução</div>
+        <h2 class="title">Mentoria estratégica para construir o Club, posicionar a ideia e colocar esse projeto para andar de verdade</h2>
+        <p class="sub">
+          A proposta é conduzir vocês por um processo estruturado, estratégico e prático, para que esse Club deixe de ser apenas uma visão inspiradora e se torne um projeto real, comunicável, desejável e pronto para ganhar forma.
+        </p>
+      </div>
+
+      <div class="journey">
+        <div class="journey-card">
+          <div class="n">1</div>
+          <h4>Essência e potencialidades</h4>
+          <p>Identificar o melhor de cada uma, definir papéis, forças, diferenciais e a energia central do projeto.</p>
+        </div>
+        <div class="journey-card">
+          <div class="n">2</div>
+          <h4>Propósito, posicionamento e oferta</h4>
+          <p>Estruturar conceito, promessa, público, pilares, linguagem e proposta de valor do Club.</p>
+        </div>
+        <div class="journey-card">
+          <div class="n">3</div>
+          <h4>Divulgação, experiências e presença digital</h4>
+          <p>Desenhar eventos, narrativa, materiais, estrutura de comunicação e base do site para lançamento e crescimento.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section offer">
+      <div class="panel">
+        <div class="kicker">Formato da mentoria</div>
+        <h2 class="title">6 encontros de 2 horas</h2>
+        <div style="margin-top:14px; font-family: 'Playfair Display', Georgia, 'Times New Roman', serif; font-size: 34px; color: var(--accent-dark);">US$ 1.500</div>
+        <ul class="clean" style="margin-top:16px;">
+          <li>Construção estratégica do conceito e posicionamento do Club</li>
+          <li>Definição das potencialidades e papel de cada uma na operação</li>
+          <li>Estrutura de divulgação, narrativa e mensagem do projeto</li>
+          <li>Desenho de eventos, experiências e proposta de valor</li>
+          <li>Direcionamento para site, presença digital e materiais essenciais</li>
+          <li>Uso prático de IA para acelerar a execução e colocar o projeto em movimento</li>
+        </ul>
+      </div>
+
+      <div class="price-box">
+        <div class="kicker">Bônus especial</div>
+        <h2 class="title" style="font-size:32px;">6 meses de Presença Estratégica</h2>
+        <div class="value">mais profundidade, direção e valor percebido</div>
+        <p class="mini">
+          Além da mentoria para construção do Club, vocês entram com <strong>6 meses de Presença Estratégica</strong> como bônus.
+          A mentoria em grupo tem valor de <strong>US$ 2.000 por pessoa</strong>, o que amplia de forma concreta a entrega, a profundidade do processo e a força desta proposta.
+        </p>
+
+        <p class="mini" style="margin-top:14px; color: var(--text); font-weight: 600;">
+          É uma oportunidade de não apenas idealizar esse projeto, mas começar essa construção com posicionamento, direção e apoio estratégico real.
+        </p>
+
+        <a class="cta" href="https://wa.me/14075525010" target="_blank" rel="noopener noreferrer">Vamos começar?</a>
+
+        <div class="signature">Priscila Cacicedo</div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
