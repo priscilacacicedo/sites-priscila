@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Construa Patrimônio nos EUA com Segurança | Sérgio França · Projetto Constructions</title>
+  <meta name="description" content="Descubra como investir, construir e proteger seu patrimônio no mercado imobiliário da Flórida dentro da lei. Orientação com Building Contractor licenciado, 265 projetos executados.">
+  <meta name="keywords" content="investimento imóveis Flórida, Building Contractor licenciado Florida, mentoria construção EUA, patrimônio EUA brasileiros, construção civil Florida, DBPR licença">
+  <meta property="og:title" content="Construa Patrimônio nos EUA com Segurança | Sérgio França">
+  <meta property="og:description" content="O mercado de construção da Flórida atrai investidores do mundo inteiro. Saiba como entrar com segurança, dentro da lei e sem cometer os erros que custam caro.">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://sergiofranca.com/mentoria-construcao-florida">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "name": "Sérgio França",
+        "jobTitle": "Building Contractor Licenciado, Estado da Flórida",
+        "worksFor": { "@type": "Organization", "name": "Projetto Constructions" },
+        "description": "Building Contractor licenciado e segurado na Flórida com 9 anos de experiência e 265 projetos executados. Orienta investidores e profissionais brasileiros a construir patrimônio nos EUA dentro da lei.",
+        "knowsAbout": ["construção civil Flórida", "licença Building Contractor Florida", "investimento imobiliário EUA", "DBPR licenciamento", "permit Florida", "flipping imóveis Florida"]
+      },
+      {
+        "@type": "Service",
+        "name": "Mentoria de Construção e Investimento Imobiliário na Flórida",
+        "provider": { "@type": "Person", "name": "Sérgio França" },
+        "description": "Sessões individuais para investidores e profissionais que querem construir patrimônio no mercado imobiliário e de construção civil da Flórida com segurança e dentro da lei.",
+        "areaServed": "Florida, USA",
+        "inLanguage": "pt-BR"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "O que é um Building Contractor na Flórida?", "acceptedAnswer": { "@type": "Answer", "text": "Building Contractor é o profissional licenciado pelo DBPR para coordenar e executar obras de construção civil, reforma e legalização de imóveis na Flórida. Sem licença válida, exercer essa atividade configura crime no estado." } },
+          { "@type": "Question", "name": "Brasileiros podem investir em imóveis na Flórida?", "acceptedAnswer": { "@type": "Answer", "text": "Sim. O Brasil é o terceiro país que mais compra imóveis na Flórida. Não há restrição de cidadania para investir, mas é fundamental entender o sistema de licenciamento e regularização para proteger o investimento." } },
+          { "@type": "Question", "name": "O que é permit aberto e por que é um problema?", "acceptedAnswer": { "@type": "Answer", "text": "Um permit aberto é um alvará de obra não encerrado formalmente. Impede a venda e o refinanciamento do imóvel, e a responsabilidade recai sobre o proprietário atual independentemente de quem fez a obra." } },
+          { "@type": "Question", "name": "Brasileiros podem obter licença de Building Contractor na Flórida?", "acceptedAnswer": { "@type": "Answer", "text": "Sim. A licença não exige cidadania americana. É necessário documentação regular nos EUA, comprovação de experiência prática, aprovação nos exames estaduais e contratação dos seguros exigidos pelo DBPR." } }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 16px; }
+
+    :root {
+      --verde:      #007D2F;
+      --verde-deep: #0A4A26;
+      --verde-tint: #EAF5EE;
+      --areia:      #C8A86A;
+      --grafite:    #1A1E1B;
+      --txt:        #4A504C;
+      --neu:        #D8D8D2;
+      --bg:         #FAFAF8;
+      --white:      #FFFFFF;
+      --font-h:     'Montserrat', sans-serif;
+      --font-b:     'Inter', sans-serif;
+      --max:        1160px;
+      --r:          12px;
+      --rl:         20px;
+    }
+
+    body { font-family: var(--font-b); background: var(--bg); color: var(--grafite); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+    .wrap { max-width: var(--max); margin: 0 auto; padding: 0 2rem; }
+
+    /* ANIMATIONS */
+    .reveal { opacity: 0; transform: translateY(26px); transition: opacity .75s ease, transform .75s ease; }
+    .reveal.on { opacity: 1; transform: none; }
+    .d1 { transition-delay: .1s; } .d2 { transition-delay: .2s; } .d3 { transition-delay: .3s; } .d4 { transition-delay: .4s; }
+
+    /* NAV */
+    .nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 1rem 2rem; transition: background .3s, box-shadow .3s; }
+    .nav.sc { background: rgba(250,250,248,.94); backdrop-filter: blur(14px); box-shadow: 0 1px 0 rgba(0,0,0,.07); }
+    .nav-i { max-width: var(--max); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; }
+    .nav-logo { font-family: var(--font-h); font-size: .84rem; font-weight: 700; letter-spacing: .05em; color: var(--white); text-decoration: none; transition: color .2s; }
+    .nav.sc .nav-logo { color: var(--grafite); }
+    .nav-logo span { color: var(--areia); }
+    .nav.sc .nav-logo span { color: var(--verde); }
+    .nav-btn { font-family: var(--font-h); font-size: .72rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--white); background: var(--verde); padding: .6rem 1.4rem; border-radius: 50px; text-decoration: none; transition: background .2s, transform .2s, box-shadow .2s; }
+    .nav-btn:hover { background: var(--verde-deep); transform: translateY(-1px); box-shadow: 0 6px 20px rgba(0,125,47,.35); }
+
+    /* BTN */
+    .btn { display: inline-flex; align-items: center; gap: .6rem; background: var(--verde); color: var(--white); font-family: var(--font-h); font-size: .85rem; font-weight: 700; letter-spacing: .04em; padding: 1rem 2rem; border-radius: 50px; text-decoration: none; transition: background .2s, transform .2s, box-shadow .2s; white-space: nowrap; }
+    .btn:hover { background: #009A3A; transform: translateY(-2px); box-shadow: 0 10px 35px rgba(0,125,47,.45); }
+    .btn-outline { background: transparent; border: 2px solid var(--white); color: var(--white); }
+    .btn-outline:hover { background: rgba(255,255,255,.12); transform: translateY(-2px); box-shadow: none; }
+
+    /* ── 1. HERO ── */
+    .hero { min-height: 100vh; position: relative; display: flex; align-items: flex-end; overflow: hidden; }
+    .hero-bg { position: absolute; inset: 0;
+      background: url('https://d8j0ntlcm91z4.cloudfront.net/user_3DSYyJNcw8NiD1fZoPLp2CeCJxw/hf_20260625_225726_028ff511-db92-4e60-b204-d061a1e095e0.png') center/cover no-repeat;
+    }
+    .hero-bg::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(10,74,38,.5) 0%, rgba(10,74,38,.3) 25%, rgba(5,25,12,.7) 65%, rgba(3,15,8,.97) 100%); }
+    .hero-inner { position: relative; z-index: 1; width: 100%; padding: 10rem 2rem 5rem; max-width: calc(var(--max) + 4rem); margin: 0 auto; display: grid; grid-template-columns: 1.1fr .9fr; gap: 4rem; align-items: end; }
+    .hero-eyebrow { display: inline-flex; align-items: center; gap: .5rem; background: rgba(0,125,47,.28); border: 1px solid rgba(0,125,47,.55); border-radius: 50px; padding: .35rem .9rem; font-family: var(--font-h); font-size: .63rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: #8FDAAA; margin-bottom: 1.4rem; }
+    .hero-eyebrow::before { content: ''; width: 5px; height: 5px; background: var(--verde); border-radius: 50%; }
+    .hero h1 { font-family: var(--font-h); font-size: clamp(2.4rem, 4.5vw, 3.8rem); font-weight: 900; line-height: 1.06; color: var(--white); margin-bottom: 1.5rem; letter-spacing: -.025em; }
+    .hero h1 em { font-style: italic; color: var(--areia); }
+    .hero-sub { font-size: 1.05rem; color: rgba(255,255,255,.72); line-height: 1.82; margin-bottom: 2.5rem; max-width: 520px; }
+    .hero-ctas { display: flex; align-items: center; gap: 1.25rem; flex-wrap: wrap; }
+    .hero-note { font-size: .76rem; color: rgba(255,255,255,.4); margin-top: .5rem; display: block; }
+    .hero-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: rgba(255,255,255,.1); border-radius: var(--rl); overflow: hidden; }
+    .stat { background: rgba(10,74,38,.55); backdrop-filter: blur(10px); padding: 1.6rem 1.4rem; transition: background .2s; }
+    .stat:hover { background: rgba(10,74,38,.75); }
+    .stat.wide { grid-column: span 2; background: rgba(0,125,47,.32); }
+    .stat-n { font-family: var(--font-h); font-size: 2.5rem; font-weight: 900; color: var(--areia); line-height: 1; margin-bottom: .3rem; letter-spacing: -.03em; }
+    .stat-l { font-size: .78rem; color: rgba(255,255,255,.62); line-height: 1.45; }
+
+    /* TRUST */
+    .trust { background: var(--grafite); padding: 1rem 2rem; }
+    .trust-i { max-width: var(--max); margin: 0 auto; display: flex; align-items: center; gap: 2rem; flex-wrap: wrap; justify-content: center; }
+    .t-item { display: flex; align-items: center; gap: .5rem; font-family: var(--font-h); font-size: .64rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: rgba(255,255,255,.48); }
+    .t-item span { color: var(--verde); }
+
+    /* ── 2. OPORTUNIDADE ── */
+    .opp { padding: 7rem 2rem; background: var(--verde-deep); position: relative; overflow: hidden; }
+    .opp::before { content: ''; position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,.025) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px); background-size: 55px 55px; pointer-events: none; }
+    .opp::after { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 80% 20%, rgba(0,125,47,.4) 0%, transparent 60%); pointer-events: none; }
+    .opp-i { position: relative; z-index: 1; max-width: var(--max); margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
+    .opp-label { font-family: var(--font-h); font-size: .63rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--areia); display: block; margin-bottom: .9rem; }
+    .opp h2 { font-family: var(--font-h); font-size: clamp(2rem, 3.5vw, 3rem); font-weight: 900; color: var(--white); letter-spacing: -.025em; line-height: 1.1; margin-bottom: 1.5rem; }
+    .opp h2 em { color: var(--areia); font-style: italic; }
+    .opp p { font-size: 1rem; color: rgba(255,255,255,.68); line-height: 1.85; margin-bottom: 1.15rem; }
+    .opp-numbers { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: rgba(255,255,255,.1); border-radius: var(--rl); overflow: hidden; }
+    .opp-num { background: rgba(255,255,255,.05); padding: 1.75rem 1.5rem; }
+    .opp-num.hl { background: rgba(0,125,47,.3); }
+    .opp-num-n { font-family: var(--font-h); font-size: 2.2rem; font-weight: 900; color: var(--areia); line-height: 1; margin-bottom: .3rem; letter-spacing: -.02em; }
+    .opp-num-l { font-size: .8rem; color: rgba(255,255,255,.58); line-height: 1.45; }
+    .opp-src { font-size: .7rem; color: rgba(255,255,255,.3); font-style: italic; margin-top: .2rem; display: block; }
+
+    /* ── 3. O ERRO ── */
+    .erro { padding: 7rem 2rem; background: var(--white); }
+    .erro-i { max-width: var(--max); margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: start; }
+    .erro-label { font-family: var(--font-h); font-size: .63rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--verde); display: block; margin-bottom: .9rem; }
+    .erro h2 { font-family: var(--font-h); font-size: clamp(1.9rem, 3vw, 2.6rem); font-weight: 800; line-height: 1.15; letter-spacing: -.02em; color: var(--grafite); margin-bottom: 1.5rem; }
+    .erro p { font-size: 1rem; color: var(--txt); margin-bottom: 1.2rem; line-height: 1.82; }
+    .erro-cards { display: flex; flex-direction: column; gap: 1rem; }
+    .ec { background: var(--bg); border: 1px solid var(--neu); border-left: 3px solid var(--verde); border-radius: var(--r); padding: 1.2rem 1.4rem; transition: box-shadow .2s; }
+    .ec:hover { box-shadow: 0 4px 20px rgba(0,125,47,.08); }
+    .ec-tag { display: inline-block; background: var(--verde-tint); color: var(--verde-deep); font-family: var(--font-h); font-size: .66rem; font-weight: 700; letter-spacing: .04em; padding: .18rem .55rem; border-radius: 4px; margin-bottom: .4rem; }
+    .ec-title { font-family: var(--font-h); font-size: .84rem; font-weight: 700; color: var(--grafite); margin-bottom: .35rem; }
+    .ec p { font-size: .87rem; color: var(--txt); line-height: 1.65; margin: 0; }
+
+    /* ── 4. HISTORIA SÉRGIO ── */
+    .historia { padding: 7rem 2rem; background: var(--grafite); position: relative; overflow: hidden; }
+    .historia::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 20% 50%, rgba(0,125,47,.2) 0%, transparent 60%); pointer-events: none; }
+    .historia-i { position: relative; z-index: 1; max-width: 780px; margin: 0 auto; text-align: center; }
+    .historia-label { font-family: var(--font-h); font-size: .63rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--areia); display: block; margin-bottom: 1.5rem; }
+    .historia-quote { font-family: var(--font-h); font-size: clamp(1.5rem, 2.8vw, 2.1rem); font-weight: 700; color: var(--white); line-height: 1.35; margin-bottom: 2rem; font-style: italic; }
+    .historia-quote em { color: var(--areia); font-style: normal; }
+    .historia-divider { width: 56px; height: 2px; background: var(--areia); margin: 0 auto 2rem; }
+    .historia p { font-size: 1rem; color: rgba(255,255,255,.65); line-height: 1.85; margin-bottom: 1.1rem; text-align: left; max-width: 680px; margin-left: auto; margin-right: auto; }
+    .historia-creds { display: flex; flex-wrap: wrap; justify-content: center; gap: .75rem; margin-top: 2.5rem; }
+    .hcred { display: flex; align-items: center; gap: .5rem; background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.1); border-radius: 50px; padding: .45rem 1rem; font-size: .78rem; color: rgba(255,255,255,.65); }
+    .hcred::before { content: ''; width: 5px; height: 5px; background: var(--verde); border-radius: 50%; flex-shrink: 0; }
+
+    /* ── 5. TRÊS CAMINHOS ── */
+    .caminhos { padding: 7rem 2rem; background: var(--bg); }
+    .caminhos-i { max-width: var(--max); margin: 0 auto; }
+    .caminhos-header { text-align: center; margin-bottom: 3.5rem; }
+    .caminhos-label { font-family: var(--font-h); font-size: .63rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--verde); display: block; margin-bottom: .9rem; }
+    .caminhos h2 { font-family: var(--font-h); font-size: clamp(1.9rem, 3vw, 2.6rem); font-weight: 800; letter-spacing: -.02em; color: var(--grafite); margin-bottom: .9rem; }
+    .caminhos-sub { font-size: 1rem; color: var(--txt); max-width: 540px; margin: 0 auto; line-height: 1.78; }
+    .caminhos-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+    .caminho { background: var(--white); border: 1px solid var(--neu); border-radius: var(--rl); overflow: hidden; transition: transform .3s, box-shadow .3s; }
+    .caminho:hover { transform: translateY(-6px); box-shadow: 0 20px 50px rgba(0,0,0,.1); }
+    .caminho-img { width: 100%; height: 195px; object-fit: cover; display: block; filter: brightness(.88) saturate(.9); }
+    .caminho-body { padding: 1.75rem; }
+    .caminho-tag { display: inline-block; background: var(--verde-tint); color: var(--verde-deep); font-family: var(--font-h); font-size: .6rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; padding: .22rem .65rem; border-radius: 50px; margin-bottom: 1rem; }
+    .caminho h3 { font-family: var(--font-h); font-size: 1.1rem; font-weight: 700; color: var(--grafite); margin-bottom: .8rem; line-height: 1.3; }
+    .caminho p { font-size: .9rem; color: var(--txt); line-height: 1.78; margin-bottom: 1.4rem; }
+    .caminho-arrow { font-family: var(--font-h); font-size: .72rem; font-weight: 700; color: var(--verde); display: flex; align-items: center; gap: .4rem; border-top: 1px solid var(--neu); padding-top: 1rem; text-decoration: none; transition: gap .2s; }
+    .caminho:hover .caminho-arrow { gap: .7rem; }
+
+    /* ── 6. MÉTODO ── */
+    .metodo { padding: 7rem 2rem; background: var(--verde-deep); position: relative; overflow: hidden; }
+    .metodo::before { content: ''; position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,.025) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px); background-size: 55px 55px; pointer-events: none; }
+    .metodo-i { position: relative; z-index: 1; max-width: var(--max); margin: 0 auto; }
+    .metodo-header { text-align: center; margin-bottom: 3.5rem; }
+    .metodo-label { font-family: var(--font-h); font-size: .63rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--areia); display: block; margin-bottom: .9rem; }
+    .metodo h2 { font-family: var(--font-h); font-size: clamp(1.9rem, 3vw, 2.6rem); font-weight: 800; letter-spacing: -.02em; color: var(--white); margin-bottom: .9rem; }
+    .metodo-sub { font-size: 1rem; color: rgba(255,255,255,.6); max-width: 520px; margin: 0 auto; line-height: 1.78; }
+    .modulos { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+    .modulo { background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.1); border-radius: var(--rl); padding: 2rem; position: relative; overflow: hidden; transition: background .3s, border-color .3s, transform .3s; }
+    .modulo:hover { background: rgba(255,255,255,.1); border-color: rgba(0,125,47,.5); transform: translateY(-5px); }
+    .modulo.destaque { background: rgba(0,125,47,.25); border-color: rgba(0,125,47,.5); }
+    .modulo-badge { display: inline-flex; align-items: center; justify-content: space-between; width: 100%; margin-bottom: 1.5rem; }
+    .modulo-nome { font-family: var(--font-h); font-size: .62rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: #8FDAAA; background: rgba(0,125,47,.3); border: 1px solid rgba(0,125,47,.5); border-radius: 50px; padding: .22rem .7rem; }
+    .modulo-badge .brilho { font-family: var(--font-h); font-size: .65rem; font-weight: 700; color: var(--areia); letter-spacing: .05em; text-transform: uppercase; }
+    .modulo h3 { font-family: var(--font-h); font-size: 1.35rem; font-weight: 800; color: var(--white); margin-bottom: .35rem; letter-spacing: -.01em; }
+    .modulo-perfil { font-size: .82rem; color: rgba(255,255,255,.55); margin-bottom: 1.5rem; font-style: italic; }
+    .modulo-itens { display: flex; flex-direction: column; gap: .5rem; margin-bottom: 1.75rem; }
+    .mi { display: flex; align-items: flex-start; gap: .6rem; font-size: .85rem; color: rgba(255,255,255,.75); line-height: 1.55; }
+    .mi::before { content: '✓'; color: var(--areia); font-weight: 700; flex-shrink: 0; font-size: .8rem; margin-top: .1rem; }
+    .modulo-sessoes { display: flex; align-items: center; gap: .6rem; border-top: 1px solid rgba(255,255,255,.1); padding-top: 1.25rem; }
+    .sess-n { font-family: var(--font-h); font-size: 1.6rem; font-weight: 900; color: var(--areia); line-height: 1; }
+    .sess-l { font-size: .75rem; color: rgba(255,255,255,.5); line-height: 1.3; }
+
+    /* ── 7. O QUE VOCÊ APRENDE ── */
+    .aprende { padding: 7rem 2rem; background: var(--white); }
+    .aprende-i { max-width: var(--max); margin: 0 auto; }
+    .aprende-header { margin-bottom: 3.5rem; max-width: 560px; }
+    .aprende-label { font-family: var(--font-h); font-size: .63rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--verde); display: block; margin-bottom: .9rem; }
+    .aprende h2 { font-family: var(--font-h); font-size: clamp(1.9rem, 3vw, 2.6rem); font-weight: 800; letter-spacing: -.02em; color: var(--grafite); margin-bottom: .8rem; }
+    .aprende-sub { font-size: 1rem; color: var(--txt); line-height: 1.78; }
+    .aprende-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+    .al { background: var(--bg); border: 1px solid var(--neu); border-radius: var(--r); padding: 1.4rem; transition: border-color .2s, box-shadow .2s; }
+    .al:hover { border-color: var(--verde); box-shadow: 0 4px 16px rgba(0,125,47,.08); }
+    .al-ico { width: 40px; height: 40px; background: var(--verde-tint); border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; font-size: 1.1rem; }
+    .al h4 { font-family: var(--font-h); font-size: .85rem; font-weight: 700; color: var(--grafite); margin-bottom: .4rem; }
+    .al p { font-size: .81rem; color: var(--txt); line-height: 1.6; margin: 0; }
+
+    /* ── 8. CASOS REAIS ── */
+    .casos { padding: 7rem 2rem; background: var(--bg); }
+    .casos-i { max-width: var(--max); margin: 0 auto; }
+    .casos-header { text-align: center; margin-bottom: 3.5rem; }
+    .casos-label { font-family: var(--font-h); font-size: .63rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--verde); display: block; margin-bottom: .9rem; }
+    .casos h2 { font-family: var(--font-h); font-size: clamp(1.9rem, 3vw, 2.6rem); font-weight: 800; letter-spacing: -.02em; color: var(--grafite); margin-bottom: .9rem; }
+    .casos-sub { font-size: 1rem; color: var(--txt); max-width: 500px; margin: 0 auto; line-height: 1.78; }
+    .casos-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+    .caso { background: var(--white); border: 1px solid var(--neu); border-radius: var(--rl); padding: 1.75rem; transition: transform .3s, box-shadow .3s; }
+    .caso:hover { transform: translateY(-4px); box-shadow: 0 16px 40px rgba(0,0,0,.08); }
+    .caso-tipo { font-family: var(--font-h); font-size: .62rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--verde); display: flex; align-items: center; gap: .4rem; margin-bottom: 1.1rem; }
+    .caso-tipo::before { content: ''; width: 20px; height: 2px; background: var(--verde); flex-shrink: 0; }
+    .caso h3 { font-family: var(--font-h); font-size: 1rem; font-weight: 700; color: var(--grafite); margin-bottom: .8rem; line-height: 1.35; }
+    .caso p { font-size: .9rem; color: var(--txt); line-height: 1.78; }
+    .caso-resultado { display: inline-block; margin-top: 1.25rem; background: var(--verde-tint); color: var(--verde-deep); font-family: var(--font-h); font-size: .72rem; font-weight: 700; padding: .3rem .8rem; border-radius: 6px; }
+
+    /* ── 9. AUTORIDADE ── */
+    .autoridade { padding: 7rem 2rem; background: var(--verde-deep); }
+    .autoridade-i { max-width: var(--max); margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
+    .auto-vis { position: relative; }
+    .auto-img { width: 100%; aspect-ratio: 4/5; object-fit: cover; border-radius: var(--rl); display: block; filter: brightness(.85) saturate(.85); }
+    .auto-pill { position: absolute; bottom: -1.25rem; right: -1.25rem; background: var(--areia); border-radius: var(--r); padding: 1.2rem 1.4rem; box-shadow: 0 10px 40px rgba(0,0,0,.2); }
+    .auto-pill .n { font-family: var(--font-h); font-size: 1.9rem; font-weight: 900; color: var(--grafite); line-height: 1; }
+    .auto-pill .l { font-size: .7rem; color: rgba(26,30,27,.6); font-weight: 500; margin-top: .2rem; }
+    .autoridade-label { font-family: var(--font-h); font-size: .63rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--areia); display: block; margin-bottom: .9rem; }
+    .autoridade h2 { font-family: var(--font-h); font-size: clamp(1.8rem, 2.8vw, 2.4rem); font-weight: 800; letter-spacing: -.02em; color: var(--white); margin-bottom: 1.4rem; line-height: 1.15; }
+    .autoridade p { font-size: 1rem; color: rgba(255,255,255,.65); line-height: 1.85; margin-bottom: 1.15rem; }
+    .auto-creds { display: flex; flex-direction: column; gap: .55rem; margin-top: 2rem; }
+    .ac { display: flex; align-items: center; gap: .7rem; font-size: .88rem; color: rgba(255,255,255,.6); }
+    .ac::before { content: ''; width: 5px; height: 5px; background: var(--verde); border-radius: 50%; flex-shrink: 0; }
+
+    /* ── 10. FAQ ── */
+    .faq { padding: 7rem 2rem; background: var(--bg); }
+    .faq-i { max-width: 780px; margin: 0 auto; }
+    .faq-label { font-family: var(--font-h); font-size: .63rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--verde); display: block; margin-bottom: .9rem; }
+    .faq h2 { font-family: var(--font-h); font-size: clamp(1.9rem, 3vw, 2.4rem); font-weight: 800; letter-spacing: -.02em; color: var(--grafite); margin-bottom: 2.5rem; }
+    .faq-item { border-top: 1px solid var(--neu); }
+    .faq-item:last-child { border-bottom: 1px solid var(--neu); }
+    .faq-btn { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1.4rem 0; background: none; border: none; cursor: pointer; text-align: left; font-family: var(--font-h); font-size: .94rem; font-weight: 700; color: var(--grafite); transition: color .2s; }
+    .faq-btn:hover { color: var(--verde); }
+    .faq-ico { flex-shrink: 0; width: 26px; height: 26px; background: var(--verde-tint); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--verde); font-size: 1.1rem; transition: background .2s, transform .3s; }
+    .faq-item.open .faq-ico { background: var(--verde); color: var(--white); transform: rotate(45deg); }
+    .faq-ans { overflow: hidden; max-height: 0; transition: max-height .4s ease; }
+    .faq-item.open .faq-ans { max-height: 500px; }
+    .faq-ans p { font-size: .93rem; color: var(--txt); line-height: 1.82; padding-bottom: 1.4rem; }
+    .faq-ans a { color: var(--verde); }
+
+    /* ── 11. CTA FINAL ── */
+    .cta-final { padding: 8rem 2rem; background: var(--verde-deep); text-align: center; position: relative; overflow: hidden; }
+    .cta-final::before { content: ''; position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,.025) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px); background-size: 60px 60px; pointer-events: none; }
+    .cta-final::after { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 0%, rgba(0,125,47,.45) 0%, transparent 65%); pointer-events: none; }
+    .cta-final-i { position: relative; z-index: 1; max-width: 660px; margin: 0 auto; }
+    .cta-final-label { font-family: var(--font-h); font-size: .63rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--areia); display: block; margin-bottom: 1.2rem; }
+    .cta-final h2 { font-family: var(--font-h); font-size: clamp(2rem, 4vw, 3.2rem); font-weight: 900; color: var(--white); letter-spacing: -.025em; margin-bottom: 1.25rem; line-height: 1.1; }
+    .cta-final h2 em { color: var(--areia); font-style: italic; }
+    .cta-final p { font-size: 1.05rem; color: rgba(255,255,255,.65); line-height: 1.82; margin-bottom: 2.5rem; }
+    .cta-final-note { display: block; font-size: .77rem; color: rgba(255,255,255,.35); margin-top: 1.2rem; }
+
+    /* FOOTER */
+    footer { background: var(--grafite); padding: 2rem; }
+    .footer-i { max-width: var(--max); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+    .footer-brand { font-family: var(--font-h); font-size: .75rem; font-weight: 600; color: rgba(255,255,255,.42); }
+    .footer-brand strong { color: rgba(255,255,255,.72); }
+    .footer-links { display: flex; gap: 1.5rem; }
+    .footer-links a { font-size: .73rem; color: rgba(255,255,255,.3); text-decoration: none; transition: color .2s; }
+    .footer-links a:hover { color: var(--verde); }
+
+    /* WA FLOAT */
+    .wa { position: fixed; bottom: 1.75rem; right: 1.75rem; z-index: 999; width: 3.5rem; height: 3.5rem; background: #25D366; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 6px 25px rgba(37,211,102,.45); text-decoration: none; transition: transform .2s, box-shadow .2s; animation: pwz 2.5s infinite; }
+    .wa:hover { transform: scale(1.1); box-shadow: 0 10px 35px rgba(37,211,102,.6); }
+    @keyframes pwz { 0%,100% { box-shadow: 0 6px 25px rgba(37,211,102,.45); } 50% { box-shadow: 0 6px 35px rgba(37,211,102,.7), 0 0 0 8px rgba(37,211,102,.1); } }
+
+    /* RESPONSIVE */
+    @media (max-width: 1024px) {
+      .hero-inner, .opp-i, .erro-i, .autoridade-i { grid-template-columns: 1fr; gap: 3rem; }
+      .hero-stats { max-width: 480px; }
+      .auto-vis { display: none; }
+    }
+    @media (max-width: 768px) {
+      .caminhos-grid, .modulos, .casos-grid { grid-template-columns: 1fr; }
+      .aprende-grid { grid-template-columns: 1fr 1fr; }
+      .opp-numbers { grid-template-columns: 1fr 1fr; }
+      .hero-stats { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 480px) {
+      .aprende-grid { grid-template-columns: 1fr; }
+      .hero-inner { padding-top: 8rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="nav-i">
+    <a href="#" class="nav-logo">Sérgio França <span>· Projetto</span></a>
+    <a href="https://wa.me/15551234567?text=Ol%C3%A1%2C%20S%C3%A9rgio.%20Vim%20pelo%20site%20e%20quero%20saber%20mais%20sobre%20a%20mentoria." class="nav-btn" target="_blank" rel="noopener">Falar pelo WhatsApp</a>
+  </div>
+</nav>
+
+<main>
+
+<!-- ── 1. HERO ── -->
+<section class="hero">
+  <div class="hero-bg" role="img" aria-label="Skyline de Miami ao entardecer"></div>
+  <div class="hero-inner">
+    <div>
+      <div class="hero-eyebrow reveal">Building Contractor Licenciado · Flórida</div>
+      <h1 class="reveal d1">Construa patrimônio nos Estados Unidos <em>sem cometer os erros que fazem brasileiros perderem dinheiro</em> todos os anos.</h1>
+      <p class="hero-sub reveal d2">Descubra como investidores e profissionais podem proteger seus investimentos e aproveitar as oportunidades do mercado de construção da Flórida com orientação de quem executa obras há 9 anos, dentro da lei.</p>
+      <div class="hero-ctas reveal d3">
+        <a href="https://wa.me/15551234567?text=Ol%C3%A1%2C%20S%C3%A9rgio.%20Vim%20pelo%20site%20e%20quero%20saber%20mais%20sobre%20a%20mentoria." class="btn" target="_blank" rel="noopener">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Quero falar com o Sérgio
+        </a>
+        <span class="hero-note">A conversa não tem custo.</span>
+      </div>
+    </div>
+    <div class="hero-stats reveal d2">
+      <div class="stat wide">
+        <div class="stat-n">265</div>
+        <div class="stat-l">projetos executados na Flórida: reformas, construções novas e legalizações</div>
+      </div>
+      <div class="stat">
+        <div class="stat-n">9</div>
+        <div class="stat-l">anos de operação licenciada</div>
+      </div>
+      <div class="stat">
+        <div class="stat-n">BC</div>
+        <div class="stat-l">licenciado e segurado pelo DBPR</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST -->
+<div class="trust">
+  <div class="trust-i">
+    <div class="t-item"><span>·</span> Licensed &amp; Insured BC · Florida</div>
+    <div class="t-item"><span>·</span> DBPR Certificado</div>
+    <div class="t-item"><span>·</span> Conteúdo em Português</div>
+    <div class="t-item"><span>·</span> Projetto Constructions · 9 anos</div>
+    <div class="t-item"><span>·</span> 265 Projetos Executados</div>
+  </div>
+</div>
+
+<!-- ── 2. OPORTUNIDADE ── -->
+<section class="opp" id="oportunidade">
+  <div class="opp-i">
+    <div>
+      <span class="opp-label reveal">A oportunidade</span>
+      <h2 class="reveal d1">O mercado de construção da Flórida <em>nunca para.</em></h2>
+      <p class="reveal d2">Nos últimos 20 anos, a Flórida se tornou um dos mercados imobiliários mais ativos do mundo. O estado atrai investidores de todos os continentes, cresce em população e constrói sem parar. As oportunidades existem todos os dias, em reformas, construções novas, flipping e novos empreendimentos.</p>
+      <p class="reveal d3">O problema não é falta de oportunidade. O problema é que a maioria dos brasileiros entra nesse mercado sem entender as regras, e perde dinheiro que poderia ter virado patrimônio.</p>
+    </div>
+    <div class="opp-numbers reveal d2">
+      <div class="opp-num hl">
+        <div class="opp-num-n">3º</div>
+        <div class="opp-num-l">país que mais compra imóveis na Flórida: o Brasil, atrás de Canadá e Colômbia</div>
+        <span class="opp-src">Florida Realtors, 2025</span>
+      </div>
+      <div class="opp-num">
+        <div class="opp-num-n">US$ 10,4 bi</div>
+        <div class="opp-num-l">em compras de imóveis por estrangeiros na Flórida em 12 meses</div>
+        <span class="opp-src">Florida Realtors, 2025</span>
+      </div>
+      <div class="opp-num">
+        <div class="opp-num-n">18%</div>
+        <div class="opp-num-l">dos compradores estrangeiros em Orlando são brasileiros, a maior fatia</div>
+        <span class="opp-src">Florida Realtors</span>
+      </div>
+      <div class="opp-num">
+        <div class="opp-num-n">US$ 60 bi</div>
+        <div class="opp-num-l">tamanho estimado da construção civil na Flórida</div>
+        <span class="opp-src">WifiTalents, 2026</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── 3. O ERRO ── -->
+<section class="erro" id="o-erro">
+  <div class="erro-i">
+    <div>
+      <span class="erro-label reveal">O erro que custa caro</span>
+      <h2 class="reveal d1">Quem entra sem conhecer o sistema paga um preço alto</h2>
+      <p class="reveal d2">Trabalhar sem licença profissional na Flórida é crime. Qualquer pessoa pode abrir um formulário no DBPR e registrar uma denúncia, resultando em multas de até US$ 5.000 por dia, interdição de obra e processo criminal. Isso acontece com concorrentes mal-intencionados, clientes insatisfeitos e até vizinhos.</p>
+      <p class="reveal d3">Mas o erro mais comum não vem de má-fé. Vem de decisões tomadas sem entender como o sistema funciona, antes da compra do imóvel, antes do contrato, antes da primeira obra.</p>
+    </div>
+    <div class="erro-cards">
+      <div class="ec reveal">
+        <div class="ec-tag">Até US$ 5.000 por dia</div>
+        <div class="ec-title">Obra sem licença</div>
+        <p>Atividade sem licença pode resultar em multas diárias, interdição imediata e processo criminal. Em casos extremos, o imóvel vai a leilão.</p>
+      </div>
+      <div class="ec reveal d1">
+        <div class="ec-title">Permit aberto herdado</div>
+        <p>Comprar um imóvel com permit aberto de obra anterior significa herdar a irregularidade. O imóvel fica bloqueado para venda e refinanciamento até a resolução, que pode levar meses.</p>
+      </div>
+      <div class="ec reveal d2">
+        <div class="ec-title">Contrato sem proteção</div>
+        <p>Pelo estatuto §489.128 da Flórida, contrato firmado com contractor sem licença não pode ser executado judicialmente. Quem contratou perde o dinheiro e o serviço.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── 4. HISTÓRIA DO SÉRGIO ── -->
+<section class="historia" id="sergio">
+  <div class="historia-i">
+    <span class="historia-label reveal">A história por trás da mentoria</span>
+    <p class="historia-quote reveal d1">"Durante nove anos, dezenas de brasileiros me procuraram depois que <em>já tinham perdido dinheiro.</em>"</p>
+    <div class="historia-divider reveal d2"></div>
+    <p class="reveal d2">Cheguei aos EUA como engenheiro civil e descobri que meu diploma não me autorizava a tocar obra na Flórida. Refiz o caminho inteiro: estudei o sistema americano, prestei os exames, obtive a licença de Building Contractor e fundei a Projetto Constructions.</p>
+    <p class="reveal d3">Em 265 projetos ao longo de 9 anos, vi o mesmo padrão se repetir. Brasileiros com capital, com vontade e com planos reais, chegando ao mercado sem a orientação certa. Permit aberto descoberto na hora da venda. Contrato com contractor sem seguro. Obra embargada por denúncia no DBPR. O maior problema nunca foi a construção em si. Foi a falta de orientação antes da primeira decisão.</p>
+    <p class="reveal d3">A mentoria nasceu disso. Para que o próximo não precise aprender errando.</p>
+    <div class="historia-creds reveal d3">
+      <span class="hcred">Building Contractor licenciado, Flórida</span>
+      <span class="hcred">Fundador da Projetto Constructions</span>
+      <span class="hcred">265 projetos executados</span>
+      <span class="hcred">9 anos de operação</span>
+    </div>
+  </div>
+</section>
+
+<!-- ── 5. TRÊS CAMINHOS ── -->
+<section class="caminhos" id="para-quem">
+  <div class="caminhos-i">
+    <div class="caminhos-header">
+      <span class="caminhos-label reveal">Qual é o seu objetivo?</span>
+      <h2 class="reveal d1">Três caminhos. Uma orientação para cada um.</h2>
+      <p class="caminhos-sub reveal d2">O nível de envolvimento com o mercado varia. O que não muda é a necessidade de uma base sólida antes de agir.</p>
+    </div>
+    <div class="caminhos-grid">
+      <article class="caminho reveal">
+        <img class="caminho-img" src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=75&auto=format&fit=crop" alt="Investidor analisando imóvel na Flórida" loading="lazy">
+        <div class="caminho-body">
+          <div class="caminho-tag">Investidor</div>
+          <h3>Construir patrimônio sem tocar na obra</h3>
+          <p>Quer comprar, reformar e vender com retorno em dólar sem gerenciar canteiro. Precisa saber contratar certo, verificar licenças e proteger o investimento do início ao fim.</p>
+          <a href="https://wa.me/15551234567?text=Ol%C3%A1%2C%20sou%20investidor%20e%20quero%20entender%20como%20a%20mentoria%20funciona." class="caminho-arrow" target="_blank" rel="noopener">Quero conversar sobre esse caminho ›</a>
+        </div>
+      </article>
+      <article class="caminho reveal d1">
+        <img class="caminho-img" src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=75&auto=format&fit=crop" alt="Profissional gerenciando obra de construção civil na Flórida" loading="lazy">
+        <div class="caminho-body">
+          <div class="caminho-tag">Investidor Operador</div>
+          <h3>Participar da gestão com autonomia real</h3>
+          <p>Quer negociar com a construtora, validar orçamentos e fiscalizar a obra com critério. Precisa dominar permits, inspeções e contratos por dentro.</p>
+          <a href="https://wa.me/15551234567?text=Ol%C3%A1%2C%20quero%20entender%20como%20participar%20ativamente%20da%20obra." class="caminho-arrow" target="_blank" rel="noopener">Quero conversar sobre esse caminho ›</a>
+        </div>
+      </article>
+      <article class="caminho reveal d2">
+        <img class="caminho-img" src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&q=75&auto=format&fit=crop" alt="Profissional de construção civil buscando licença de Building Contractor na Flórida" loading="lazy">
+        <div class="caminho-body">
+          <div class="caminho-tag">Futuro BC</div>
+          <h3>Ter a licença e construir um negócio próprio</h3>
+          <p>Tem experiência com construção e quer um negócio com licença ativa no seu nome. Precisa do mapa completo: requisitos, exames, empresa e operação legal na Flórida.</p>
+          <a href="https://wa.me/15551234567?text=Ol%C3%A1%2C%20quero%20entender%20o%20caminho%20para%20obter%20a%20licen%C3%A7a%20de%20BC." class="caminho-arrow" target="_blank" rel="noopener">Quero conversar sobre esse caminho ›</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ── 6. MÉTODO ── -->
+<section class="metodo" id="metodo">
+  <div class="metodo-i">
+    <div class="metodo-header">
+      <span class="metodo-label reveal">O método</span>
+      <h2 class="reveal d1">Três programas. Cada um para um objetivo diferente.</h2>
+      <p class="metodo-sub reveal d2">Sessões individuais por videoconferência, aplicadas ao seu cenário. O número de sessões é definido com base no seu perfil e no que você precisa dominar.</p>
+    </div>
+    <div class="modulos">
+      <div class="modulo reveal">
+        <div class="modulo-badge"><span class="modulo-nome">Silver</span></div>
+        <h3>Investidor Consciente</h3>
+        <p class="modulo-perfil">Para quem entra como investidor e contrata um BC para executar</p>
+        <div class="modulo-itens">
+          <div class="mi">Análise de viabilidade do negócio</div>
+          <div class="mi">Como selecionar e contratar um BC confiável</div>
+          <div class="mi">Verificação de licenças, seguros e documentação</div>
+          <div class="mi">Supervisão de permits e inspeções</div>
+          <div class="mi">Notice of Commencement e fechamento de obra</div>
+          <div class="mi">Documentação necessária após venda ou locação</div>
+        </div>
+        <div class="modulo-sessoes"><span class="sess-n">3</span><span class="sess-l">sessões individuais<br>por videoconferência</span></div>
+      </div>
+      <div class="modulo destaque reveal d1">
+        <div class="modulo-badge"><span class="modulo-nome">Gold</span><span class="brilho">Mais completo</span></div>
+        <h3>Investidor Operador</h3>
+        <p class="modulo-perfil">Para quem quer gerenciar ativamente a obra e negociar contratos</p>
+        <div class="modulo-itens">
+          <div class="mi">Tudo do Silver, com mais profundidade</div>
+          <div class="mi">Como analisar uma construtora: perfil, reviews, obras</div>
+          <div class="mi">Análise documental de licenças estaduais e municipais</div>
+          <div class="mi">Negociação de contrato: prazos, penalidades, extras</div>
+          <div class="mi">Modelo AIA de contrato avançado</div>
+          <div class="mi">Acompanhamento de permits e inspeções por dentro</div>
+        </div>
+        <div class="modulo-sessoes"><span class="sess-n">6</span><span class="sess-l">sessões individuais<br>por videoconferência</span></div>
+      </div>
+      <div class="modulo reveal d2">
+        <div class="modulo-badge"><span class="modulo-nome">Diamond</span></div>
+        <h3>Building Contractor</h3>
+        <p class="modulo-perfil">Para quem quer a licença de BC e operar com empresa própria</p>
+        <div class="modulo-itens">
+          <div class="mi">Tudo do Gold, com foco total no seu negócio</div>
+          <div class="mi">Processo completo para obter a licença de BC na Flórida</div>
+          <div class="mi">Abertura da empresa: modelo societário e estrutura</div>
+          <div class="mi">Seguros obrigatórios para operar como BC</div>
+          <div class="mi">Suporte contábil e operacional inicial</div>
+          <div class="mi">Primeiro projeto: do permit à entrega</div>
+        </div>
+        <div class="modulo-sessoes"><span class="sess-n">10</span><span class="sess-l">sessões individuais<br>por videoconferência</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── 7. O QUE VOCÊ APRENDE ── -->
+<section class="aprende" id="conteudo">
+  <div class="aprende-i">
+    <div class="aprende-header">
+      <span class="aprende-label reveal">O que você recebe</span>
+      <h2 class="reveal d1">Orientação aplicada ao seu cenário real</h2>
+      <p class="aprende-sub reveal d2">Não é apostila. Não é certificado. É o conhecimento de quem executou 265 obras na Flórida, aplicado diretamente ao seu momento e ao seu objetivo.</p>
+    </div>
+    <div class="aprende-grid">
+      <div class="al reveal">
+        <div class="al-ico">📋</div>
+        <h4>Permits e licenças</h4>
+        <p>Como funciona o processo de permitting, quais obras exigem permit e como acompanhar cada etapa.</p>
+      </div>
+      <div class="al reveal d1">
+        <div class="al-ico">📄</div>
+        <h4>Contratos</h4>
+        <p>O que verificar antes de assinar, quais cláusulas protegem você e como funciona o modelo AIA.</p>
+      </div>
+      <div class="al reveal d2">
+        <div class="al-ico">🔍</div>
+        <h4>Due diligence</h4>
+        <p>Como verificar permits abertos, licenças ativas no DBPR e histórico da construtora antes de qualquer compromisso.</p>
+      </div>
+      <div class="al reveal d3">
+        <div class="al-ico">🛡️</div>
+        <h4>Seguros</h4>
+        <p>Quais seguros são obrigatórios para cada tipo de obra e como verificar a cobertura antes de assinar contrato.</p>
+      </div>
+      <div class="al reveal">
+        <div class="al-ico">🏗️</div>
+        <h4>Viabilidade financeira</h4>
+        <p>Como calcular a viabilidade de reforma, flipping e construção nova com projeção financeira real.</p>
+      </div>
+      <div class="al reveal d1">
+        <div class="al-ico">📐</div>
+        <h4>Notice of Commencement</h4>
+        <p>O que é, quando registrar e por que sua ausência pode criar problemas graves com sub-contractors.</p>
+      </div>
+      <div class="al reveal d2">
+        <div class="al-ico">⚖️</div>
+        <h4>Regulamentação</h4>
+        <p>Como funciona o DBPR, quais são as categorias de licença e as consequências de operar fora da lei.</p>
+      </div>
+      <div class="al reveal d3">
+        <div class="al-ico">🏢</div>
+        <h4>Abertura de empresa (Diamond)</h4>
+        <p>Modelo societário, estrutura de empresa e seguros para quem quer operar como Building Contractor licenciado.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── 8. CASOS REAIS ── -->
+<section class="casos" id="casos">
+  <div class="casos-i">
+    <div class="casos-header">
+      <span class="casos-label reveal">Situações reais</span>
+      <h2 class="reveal d1">O que o Sérgio vê no campo, todo ano</h2>
+      <p class="casos-sub reveal d2">Esses não são exemplos hipotéticos. São padrões que se repetem no dia a dia de quem opera no mercado de construção da Flórida.</p>
+    </div>
+    <div class="casos-grid">
+      <div class="caso reveal">
+        <div class="caso-tipo">Investidor</div>
+        <h3>O permit aberto que bloqueou a venda</h3>
+        <p>Um investidor comprou um imóvel em Miami-Dade, reformou e colocou para vender. Na due diligence do comprador, dois permits abertos de reformas anteriores travaram a transação. Levou quatro meses para regularizar, com custos que não estavam no plano.</p>
+        <span class="caso-resultado">Resolvido antes da próxima compra</span>
+      </div>
+      <div class="caso reveal d1">
+        <div class="caso-tipo">Contratante</div>
+        <h3>O contractor sem seguro que desapareceu</h3>
+        <p>Uma família contratou uma empresa para construção nova em Broward County sem verificar os seguros. O contractor parou as obras no meio, sem dinheiro em caixa. Com um contrato mal redigido, não havia proteção legal para cobrar ou retomar.</p>
+        <span class="caso-resultado">Orientação desde a seleção do BC</span>
+      </div>
+      <div class="caso reveal d2">
+        <div class="caso-tipo">Futuro BC</div>
+        <h3>O engenheiro que perdeu dois anos</h3>
+        <p>Um engenheiro civil recém-chegado do Brasil investiu dois anos tentando validar o diploma para atuar em obra. O diploma não habilita para construção nos EUA. Quando chegou até o Sérgio, refez o processo correto em menos de um ano.</p>
+        <span class="caso-resultado">Licença obtida pelo caminho certo</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── 9. AUTORIDADE ── -->
+<section class="autoridade" id="autoridade">
+  <div class="autoridade-i wrap">
+    <div class="auto-vis reveal">
+      <div style="position:relative">
+        <img class="auto-img" src="https://images.unsplash.com/photo-1590479773265-7464e5d48118?w=700&q=80&auto=format&fit=crop" alt="Obra executada pela Projetto Constructions na Flórida" loading="lazy">
+        <div class="auto-pill">
+          <div class="n">265</div>
+          <div class="l">Projetos na Flórida</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <span class="autoridade-label reveal">Quem está por trás</span>
+      <h2 class="reveal d1">Sérgio França, Building Contractor licenciado e segurado na Flórida</h2>
+      <p class="reveal d2">Sérgio chegou aos EUA como engenheiro civil e descobriu que precisava reconstruir o caminho do zero. Estudou o sistema americano, fez os exames estaduais, obteve a licença de Building Contractor e fundou a Projetto Constructions. Em 9 anos, executou 265 projetos entre reformas residenciais e comerciais, construções novas e processos de legalização na Flórida.</p>
+      <p class="reveal d3">A mentoria existe porque ele percebeu que o erro mais caro do mercado brasileiro nos EUA não está na execução da obra. Está nas decisões tomadas antes dela começar.</p>
+      <div class="auto-creds reveal d3">
+        <div class="ac">Building Contractor licenciado e segurado, Estado da Flórida</div>
+        <div class="ac">Fundador da Projetto Constructions</div>
+        <div class="ac">265 projetos: reformas, construções novas e legalizações</div>
+        <div class="ac">9 anos de operação ativa na Flórida</div>
+        <div class="ac">Orientação em português para brasileiros nos EUA e no Brasil</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── 10. FAQ ── -->
+<section class="faq" id="faq">
+  <div class="faq-i">
+    <span class="faq-label reveal">Perguntas frequentes</span>
+    <h2 class="reveal d1">O que você precisa saber</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-btn" aria-expanded="false"><span>O que é um Building Contractor na Flórida?</span><span class="faq-ico">+</span></button>
+        <div class="faq-ans"><p>Building Contractor é o profissional licenciado pelo DBPR para coordenar e executar obras de construção civil, reforma e legalização na Flórida. Sem licença válida, exercer essa atividade configura crime no estado, com multas de até US$ 5.000 por dia e possibilidade de processo criminal.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn" aria-expanded="false"><span>Brasileiros podem investir em imóveis na Flórida?</span><span class="faq-ico">+</span></button>
+        <div class="faq-ans"><p>Sim. O Brasil é o terceiro país que mais compra imóveis na Flórida, com participação significativa especialmente em Orlando, Miami e Tampa. Não há restrição de cidadania para investir, mas é fundamental entender o sistema de licenciamento e regularização para proteger o investimento.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn" aria-expanded="false"><span>O que é permit aberto e por que é um problema?</span><span class="faq-ico">+</span></button>
+        <div class="faq-ans"><p>Um permit aberto é um alvará de obra que foi emitido mas nunca encerrado formalmente. Significa que a obra não passou pela inspeção final do município. Um imóvel com permit aberto não pode ser refinanciado, a venda pode ser bloqueada e a responsabilidade pela regularização recai sobre o proprietário atual, independentemente de quem fez a obra original.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn" aria-expanded="false"><span>Preciso de licença para reformar um imóvel na Flórida?</span><span class="faq-ico">+</span></button>
+        <div class="faq-ans"><p>Depende da reforma. Trabalhos estruturais, elétricos, hidráulicos e obras que alterem a área construída geralmente exigem permit e a contratação de um Building Contractor licenciado. Reformas cosméticas como pintura e troca de piso normalmente não exigem permit. A verificação correta deve ser feita junto à prefeitura do município onde o imóvel está localizado.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn" aria-expanded="false"><span>Como verificar se um Building Contractor tem licença válida?</span><span class="faq-ico">+</span></button>
+        <div class="faq-ans"><p>A verificação é gratuita e pública. Acesse <a href="https://www.myfloridalicense.com" target="_blank" rel="noopener">myfloridalicense.com</a> e pesquise pelo nome do profissional ou número da licença. O sistema mostra se a licença está ativa, processos disciplinares em aberto e a data de vencimento. Fazer essa verificação antes de qualquer contrato é essencial.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn" aria-expanded="false"><span>Brasileiros podem obter licença de Building Contractor na Flórida?</span><span class="faq-ico">+</span></button>
+        <div class="faq-ans"><p>Sim. A licença não exige cidadania americana. É necessário documentação regular nos EUA, comprovação de experiência prática na área de construção, aprovação nos exames estaduais e contratação dos seguros exigidos pelo DBPR. Diplomas de engenharia obtidos no Brasil não são reconhecidos diretamente para fins de licenciamento, mas a experiência prática comprovada pode ser utilizada.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn" aria-expanded="false"><span>A mentoria é presencial ou online?</span><span class="faq-ico">+</span></button>
+        <div class="faq-ans"><p>As sessões são realizadas por videoconferência, o que permite atender brasileiros tanto nos EUA quanto no Brasil. Cada sessão é individual, focada no seu cenário específico, sem grupos e sem conteúdo genérico.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-btn" aria-expanded="false"><span>Como funciona o primeiro contato?</span><span class="faq-ico">+</span></button>
+        <div class="faq-ans"><p>Você manda uma mensagem pelo WhatsApp explicando brevemente o que está planejando. O Sérgio ou a equipe responde para agendar uma conversa sem custo, onde ele entende o seu perfil e orienta qual programa faz mais sentido para o seu momento. A proposta com número de sessões e investimento é apresentada depois dessa conversa.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── 11. CTA FINAL ── -->
+<section class="cta-final">
+  <div class="cta-final-i">
+    <span class="cta-final-label reveal">Próximo passo</span>
+    <h2 class="reveal d1">O mercado está aberto. A questão é se você vai entrar <em>com ou sem o conhecimento certo.</em></h2>
+    <p class="reveal d2">Todos os anos, brasileiros chegam à Flórida com capital, com ambição e com planos reais. Os que prosperam são os que entenderam o sistema antes de tomar a primeira decisão. A conversa com o Sérgio existe exatamente para isso.</p>
+    <a href="https://wa.me/15551234567?text=Ol%C3%A1%2C%20S%C3%A9rgio.%20Vim%20pelo%20site%20e%20quero%20saber%20mais%20sobre%20a%20mentoria." class="btn reveal d2" target="_blank" rel="noopener">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Quero falar com o Sérgio
+    </a>
+    <span class="cta-final-note reveal d3">A conversa inicial não tem custo. Você apresenta o que está planejando e o Sérgio orienta qual caminho faz sentido para o seu momento.</span>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="footer-i">
+    <div class="footer-brand"><strong>Sérgio França</strong> · Projetto Constructions<br>Building Contractor Licenciado e Segurado, Estado da Flórida · © 2026</div>
+    <div class="footer-links">
+      <a href="https://www.myfloridalicense.com" target="_blank" rel="noopener">DBPR · Verificar Licença</a>
+      <a href="#faq">Perguntas Frequentes</a>
+    </div>
+  </div>
+</footer>
+
+<a class="wa" href="https://wa.me/15551234567?text=Ol%C3%A1%2C%20S%C3%A9rgio.%20Vim%20pelo%20site%20e%20quero%20saber%20mais%20sobre%20a%20mentoria." target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<script>
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => nav.classList.toggle('sc', window.scrollY > 50), { passive: true });
+
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('on'); obs.unobserve(e.target); } });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+
+  document.querySelectorAll('.faq-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const item = btn.closest('.faq-item');
+      const open = item.classList.contains('open');
+      document.querySelectorAll('.faq-item.open').forEach(i => { i.classList.remove('open'); i.querySelector('.faq-btn').setAttribute('aria-expanded', 'false'); });
+      if (!open) { item.classList.add('open'); btn.setAttribute('aria-expanded', 'true'); }
+    });
+  });
+</script>
+</body>
+</html>
